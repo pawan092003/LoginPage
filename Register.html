@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RegisterForm</title>
+</head>
+<body>
+    <h2>REGISTER</h2>
+    <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="regNumber">Registration Number:</label>
+        <input type="text" id="regNumber" name="regNumber" required><br><br>
+
+        <label for="specialization">Specialization:</label>
+        <select id="specialization" name="specialization" required>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <!-- Add more options as needed -->
+        </select><br><br>
+
+        <label for="email">Email ID:</label>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required><br><br>
+
+        <label for="university">University:</label>
+        <input type="text" id="university" name="university" required><br><br>
+
+        <label for="address">Address:</label>
+        <textarea id="address" name="address" required></textarea><br><br>
+
+        <label for="pincode">Pincode:</label>
+        <input type="text" id="pincode" name="pincode" required><br><br>
+
+        <label>City:</label>
+        <input type="checkbox" name="city" value="city1">City 1
+        <input type="checkbox" name="city" value="city2">City 2
+        <!-- Add more city options as needed -->
+        <br><br>
+
+        <label>Country:</label>
+        <input type="radio" name="country" value="country1" required>Country 1
+        <input type="radio" name="country" value="country2">Country 2
+        <!-- Add more country options as needed -->
+        <br><br>
+
+        <input type="submit" value="Register">
+</body>
+</html>
